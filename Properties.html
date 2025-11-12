@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .header {
+    display: flex;
+      align-items: center;
+      gap: 10px; 
+      padding: 10px 20px;
+    }
+    .divider {
+  width: 1px;
+  height: 20px;
+  background-color: #6d6c6c;
+    }
+    .icons1{
+        padding-left: 550px;
+        display: flex;
+        gap: 20px;
+        cursor: pointer;
+    }
+    .icons1 :hover {
+  transform: scale(1.1); 
+    }
+        header{background-color: rgb(253, 253, 253);
+            display: grid;
+    grid-template-columns:20% 80% ;
+        }
+           nav{
+            padding-top: 25px;
+        }
+      nav a{
+            color: rgb(11, 10, 10);
+            text-decoration: none;
+            margin: 50px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        nav a:hover{
+            color: orangered;
+        }
+        .schedule-btn {
+  color: black !important; 
+  font-weight: bold;
+  border: 1px solid #e63946;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.schedule-btn:hover {
+  border-radius: 400px;
+  background-color: #e63946;
+  color: white; 
+}
+.btn:hover{
+    background: orangered;
+}
+.mubbu{
+      position: sticky;
+      top: 0;
+      z-index:1000 ;
+    }
+    .hero{
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      background-color: rgba(230, 223, 223, 0.5);
+      padding: px 40px;
+      border-radius: 10px;
+    }
+    
+    .hero-text1{
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      padding-bottom:  200px;
+      border-radius: 10px;
+    }
+    .holder{
+  display: flex;
+  padding-left: 400px;
+  gap:30px;
+  padding-bottom: 60px;
+}
+.circle1{
+  width: 40px;
+  height: 40px;
+  background-color: #141111;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.circle2{
+  width: 40px;
+  height: 40px;
+  background-color: orangered;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <header class="mubbu" >
+      <h1 style="cursor: pointer;">VILLA</h1>
+    <nav>
+      <a href="Home.htm">Home</a>
+      <a href="Properties.htm">Properties</a>
+      <a href="Property details.htm">Property details</a>
+      <a href="Contact Us.htm">Contact us</a>
+<a href="#" class="schedule-btn text-danger border border-5 ">
+  <i class="fa-solid fa-calendar-days"></i>
+  Schedule a visit
+</a>
+</nav>
+</header><br><br>
+<div class="hero-section">
+     <img src="../Media/Imagees/page-heading-bg.jpg" alt="">
+        <div class="hero">
+        <h1 >HOME/PROPERTIES</h1>
+        </div>
+        <div class="hero-text1">
+            <h1>PROPERTIES</h1>
+        </div>
+</div>
+
+
+    <div class="d-flex gap-5 p-5  justify-content-center"><br><br>
+        <button class="btn btn-dark rounded pill w-30">Show All</button>
+        <button class="btn btn-dark rounded pill w-30">Appartment</button>
+        <button class="btn btn-dark rounded pill w-30">Villa House</button>
+        <button class="btn btn-dark rounded pill w-30">Penthouse</button>
+    </div>
+    <div class="d-flex flex-wrap gap-5 justify-content-center">
+      <div class="card" style="width: 20rem;">
+  <img src="../Media/Imagees/property-01.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="d-flex gap-5">
+    <h5 class="card-title border border-1px rounded-1 bg-warning p-1">Appartment</h5>
+     <h5 class="text-warning">$584.500</h5></div><br>
+<h6><b>12 New Street Miami,OR 12650</b></h6>
+    <p class="card-text"> Bedroom:<b>4</b> Bathrooms:<b>3</b> Area:<b>125m2</b> Floor:<b>25th</b> Parking:<b>2 Cars</b></p>
+    <button class="btn btn-dark rounded pill w-100">Schedule a visit</button>
+  </div>
+</div>
+<div class="card" style="width: 20rem;">
+  <img src="../Media/Imagees/property-02.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="d-flex gap-5">
+    <h5 class="card-title border border-1px rounded-1 bg-warning p-1">Penthouse</h5>
+    <h5 class="text-warning">$925.600</h5></div><br>
+    <h6><b>34 Beach Street Miami,Or 42980</b></h6>
+    <p class="card-text">Bedrooms:<b>4</b> Bathrooms:<b>4</b> Area:<b>180m2</b> Floor:<b>38th</b> Parking:<b>2 Cars</b></p>
+    
+    <button class="btn btn-dark rounded pill w-100">Schedule a visit</button>
+  </div>
+</div>
+<div class="card" style="width: 20rem;">
+  <img src="../Media/Imagees/property-03.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="d-flex gap-5">
+    <h5 class="card-title border border-1px rounded-1 bg-warning p-1">Modern Condo</h5>
+    <h5 class="text-warning">$450.000</h5></div><br>
+    <h6><b>22 New Street Portiand,OR 16540</b></h6>
+    <p class="card-text">Bedrooms:<b>3</b> Bathrooms:<b>2</b> Area:<b>165m2</b> Floor:<b>26th</b> Parking:<b>3 Cars</b></p>
+    
+    <button class="btn btn-dark rounded pill w-100">Schedule a visit</button>
+  </div>
+</div>
+<div class="card" style="width: 20rem;">
+  <img src="../Media/Imagees/property-04.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="d-flex gap-5">
+    <h5 class="card-title border border-1px rounded-1 bg-warning p-1">Appartment</h5>
+    <h5 class="text-warning">$584.500</h5></div><br>
+    <h6><b>12 New Street Miami,OR 12650</b></h6>
+    <p class="card-text">Bedrooms:<b>4</b> Bathrooms:<b>3</b> Area:<b>125m2</b> Floor:<b>25th</b> Parking:<b>2 Cars</b></p>
+    <button class="btn btn-dark rounded pill w-100">Schedule a visit</button>
+  </div>
+</div>
+<div class="card" style="width: 20rem;">
+  <img src="../Media/Imagees/property-05.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="d-flex gap-5">
+    <h5 class="card-title border border-1px rounded-1 bg-warning p-1">Penthouse</h5>
+    <h5 class="text-warning">$925.600</h5></div><br>
+    <h6><b>34 Beach Street Miami,OR 42680</b></h6>
+    <p class="card-text">Bedrooms:<b>4</b> Bathrooms:<b>4</b> Area:<b>180m2</b> Floor:<b>38th</b> Parking:<b>2 Cars</b></p>
+    <button class="btn btn-dark rounded pill w-100">Schedule a visit</button>
+  </div>
+</div>
+<div class="card" style="width: 20rem;">
+  <img src="../Media/Imagees/property-06 - Copy.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="d-flex gap-5">
+    <h5 class="card-title border border-1px rounded-1 bg-warning p-1">Modern Condo</h5>
+    <h5 class="text-warning">$925.600</h5></div><br>
+    <h6><b>22 New Street Portiand,OR 16540</b></h6>
+    <p class="card-text">Bedrooms:<b>3</b> Bathrooms:<b>2</b> Area:<b>165m2</b> Floor:<b>26th</b> Parking:<b>3 Cars</b></p>
+    <button class="btn btn-dark rounded pill w-100">Schedule a visit</button>
+  </div>
+</div>
+<div class="card" style="width: 20rem;">
+  <img src="../Media/Imagees/property-01.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="d-flex gap-5">
+    <h5 class="card-title border border-1px rounded-1 bg-warning p-1">Appartment</h5>
+     <h5 class="text-warning">$584.500</h5></div><br>
+<h6><b>12 New Street Miami,OR 12650</b></h6>
+    <p class="card-text"> Bedroom:<b>4</b> Bathrooms:<b>3</b> Area:<b>125m2</b> Floor:<b>25th</b> Parking:<b>2 Cars</b></p>
+    <button class="btn btn-dark rounded pill w-100">Schedule a visit</button>
+  </div>
+</div>
+<div class="card" style="width: 20rem;">
+  <img src="../Media/Imagees/property-02.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="d-flex gap-5">
+    <h5 class="card-title border border-1px rounded-1 bg-warning p-1">Penthouse</h5>
+    <h5 class="text-warning">$925.600</h5></div><br>
+    <h6><b>34 Beach Street Miami,Or 42980</b></h6>
+    <p class="card-text">Bedrooms:<b>4</b> Bathrooms:<b>4</b> Area:<b>180m2</b> Floor:<b>38th</b> Parking:<b>2 Cars</b></p>
+    
+    <button class="btn btn-dark rounded pill w-100">Schedule a visit</button>
+  </div>
+</div>
+<div class="card" style="width: 20rem;">
+  <img src="../Media/Imagees/property-03.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="d-flex gap-5">
+    <h5 class="card-title border border-1px rounded-1 bg-warning p-1">Modern Condo</h5>
+    <h5 class="text-warning">$450.000</h5></div><br>
+    <h6><b>22 New Street Portiand,OR 16540</b></h6>
+    <p class="card-text">Bedrooms:<b>3</b> Bathrooms:<b>2</b> Area:<b>165m2</b> Floor:<b>26th</b> Parking:<b>3 Cars</b></p>
+    
+    <button class="btn btn-dark rounded pill w-100">Schedule a visit</button>
+  </div>
+</div>
+</div>
+</div><br><br><br>
+</div>
+
+<div class="holder">
+<div class="circle1">1</div>
+<div class="circle2">2</div>
+<div class="circle1">3</div>
+<div class="circle1">>></div>
+</div>
+ 
+
+ <hr class="border-secondary">
+    <div class="text-center bg-dark text-white p-5">
+      <p class="mb-0">&copy; 2048 Villa Agency Co,,Ltd.All rights reserved.Design:Mubarak</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+</body>
+</html>
